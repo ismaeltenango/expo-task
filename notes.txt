@@ -1,0 +1,4 @@
+1.-find the website for the picker we are using
+2.-find a picker for React Native, thats not deprecated
+3.-npm instal _______
+4.-help.js require (.....)
