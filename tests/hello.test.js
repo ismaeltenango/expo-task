@@ -1,3 +1,6 @@
-const {Item} = require('react-native-picker/picker');
-const {hello} = require('./hello.js')
-it('Should print hello', hello);
+
+const{hello} = require('./hello.js')
+it('Should print hello',()=>{
+    const helloResponse = hello();
+    expect(helloResponse).toBe('hello');
+}); 
